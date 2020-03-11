@@ -24,37 +24,9 @@ HIF003
 --
 FILES
 {
-	register8.gdf
-	{
-		register8 [] []
-		{
-			1 [] [];
-		}
-	}
 	alu.gdf
 	{
 		alu [] []
-		{
-			2 [] [];
-		}
-	}
-	counter8.gdf
-	{
-		counter8 [] []
-		{
-			3 [] [];
-		}
-	}
-	main_machine.gdf
-	{
-		main_machine [] []
-		{
-			4 [] [];
-		}
-	}
-	alu8.gdf
-	{
-		alu8 [] []
 		{
 			0 [] [];
 		}
@@ -62,12 +34,5 @@ FILES
 }
 TREE
 {
-	alu8::(0,0):(0): alu8.gdf
-	{
-		register8:1:(0,0):(6): register8.gdf;
-		alu:2:(0,0):(8): alu.gdf;
-		counter8:3:(0,0):(11): counter8.gdf;
-		main_machine:4:(0,0):(13): main_machine.gdf;
-		register8::(0,0):(7): register8.gdf;
-	}
+	alu::(0,0):(0): alu.gdf;
 }
