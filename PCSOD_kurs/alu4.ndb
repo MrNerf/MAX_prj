@@ -1,0 +1,186 @@
+NDB006
+The number of symbol table entries is: 6
+The length of the symbol table is: 83
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|counter8:8|
+;	|register8:18|
+J	|register8:20|
+Y	|alu:48|
+b	|main_machine:49|
+
+The number of name info structs is : 169
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:12	"z
+#	IGdW	!	:32	"{
+$	IGdW	!	:38	"|
+%	Ky'E	!	23	9	:	U	V	W	X	"@	"A	"B	"C	"Q	"U	"Y	"]	>	?	@	A	B	C	D	E	&	:44	"}
+&	P}gM	!	3	G	E	&	2	:6	"x
+'	IGdW	!	:9	"y
+(	Ky&|	!	1	>	A0	"!
+)	Ky&|	!	1	?	A1	~
+*	Ky&|	!	1	@	A2	}
++	Ky&|	!	1	A	A3	|
+,	Ky&|	!	1	B	A4	{
+-	Ky&|	!	1	C	A5	z
+.	Ky&|	!	1	D	A6	y
+/	Ky&|	!	1	E	A7	x
+0	Ky&|	!	1	"]	B0	v
+1	Ky&|	!	1	"Y	B1	u
+2	Ky&|	!	1	"U	B2	t
+3	Ky&|	!	1	"Q	B3	s
+4	Ky&|	!	1	"C	B4	r
+5	Ky&|	!	1	"B	B5	q
+6	Ky&|	!	1	"A	B6	p
+7	Ky&|	!	1	"@	B7	o
+8	(@>U^	!	3	%	_	`	CLK	""
+9	IGdq	!	CLKSDV	"3
+:	IGdq	!	CLKWR	"&
+;	Ky&|	!	2	I	&	M	"#
+<	IGdq	!	READ	"$
+=	IGdq	!	RESET	"%
+>	[)+g	!	3	G	E	&	1	2	1	2	S0	"2
+?	[)+g	!	1	>	1	2	1	2	S1	"1
+@	[)+g	!	1	?	1	2	1	2	S2	"0
+A	[)+g	!	1	@	1	2	1	2	S3	"/
+B	[)+g	!	1	A	1	2	1	2	S4	".
+C	[)+g	!	1	B	1	2	1	2	S5	"-
+D	[)+g	!	1	C	1	2	1	2	S6	",
+E	[)+g	!	1	D	8	2	1	2	S7	"+
+F	IGdq	!	SDVIG	"'
+G	IGdq	!	Si	"*
+H	Ky&|	!	20	:	_	"@	"A	"B	"C	"Q	"U	"Y	"]	I	>	?	@	A	B	C	D	E	J	STROB	w
+I	IGdq	!	SUB	"(
+J	IGdq	!	WRITE	")
+K	IGdW	Y	:10	$|
+L	IVOQ	Y	R	:11	$}
+M	IGdW	Y	:5	$y
+N	IGdW	Y	:6	$w
+O	IVOQ	Y	S	:7	$z
+P	IGdW	Y	:8	$x
+Q	IGdW	Y	:9	${
+R	INu}	Y	L	Cout	$}
+S	INu}	Y	O	Si	$z
+T	IGdW	.	:11	#L
+U	L)p/	.	[	4	V	W	X	U	:2	#F
+V	L)p/	.	\	3	W	X	V	:4	#I
+W	L)p/	.	]	2	X	W	:5	#H
+X	L)p/	.	^	26	9	U	V	W	X	_	`	<	"@	"A	"B	"C	"Q	"U	"Y	"]	F	>	?	@	A	B	C	D	E	&	:6	#G
+Y	IGdW	.	:8	#J
+Z	IGdW	.	:9	#K
+[	INvO	.	U	Q1	#F
+\	INvO	.	V	Q2	#I
+]	INvO	.	W	Q4	#H
+^	INvO	.	X	Q8	#G
+_	Ky'5	b	30	9	:	U	V	W	X	_	`	<	"@	"A	"B	"C	"Q	"U	"Y	"]	=	F	I	>	?	@	A	B	C	D	E	J	&	:110	%2
+`	Ky'5	b	30	9	:	U	V	W	X	_	`	<	"@	"A	"B	"C	"Q	"U	"Y	"]	=	F	I	>	?	@	A	B	C	D	E	J	&	:111	%3
+a	IGdW	b	:112	%1
+b	IGdW	b	:113	%0
+c	IVOQ	b	p	:114	%4
+d	IVOQ	b	l	:115	%6
+e	IVOQ	b	m	:116	%7
+f	IGdW	b	:117	%9
+g	IGdW	b	:118	%:
+h	IGdW	b	:119	%/
+i	IVOQ	b	o	:122	%8
+j	IVOQ	b	n	:123	%5
+k	IGdW	b	:73	%.
+l	INu}	b	d	READ	%6
+m	INu}	b	e	RESET	%7
+n	INu}	b	j	SDVIG	%5
+o	INu}	b	i	SUB	%8
+p	INu}	b	c	WRITE	%4
+q	IVOA	;	"8	:10	$)
+r	IVOA	;	"9	:11	$*
+s	IVOA	;	":	:12	$+
+t	IVOA	;	";	:13	$$
+u	IGdW	;	:14	#y
+v	IGdW	;	:15	$!
+w	IGdW	;	:16	$"
+x	IGdW	;	:17	$#
+y	IGdW	;	:23	#r
+z	IGdW	;	:24	#s
+{	IGdW	;	:25	#t
+|	IGdW	;	:26	#u
+}	IGdW	;	:27	#v
+~	IGdW	;	:28	#w
+"!	IGdW	;	:29	#x
+""	IGdW	;	:30	#g
+"#	IGdW	;	:33	#p
+"$	IVOA	;	"<	:34	$(
+"%	IGdW	;	:36	#q
+"&	IGdW	;	:37	#~
+"'	IGdW	;	:39	#n
+"(	IVOA	;	"=	:40	$'
+")	IGdW	;	:42	#o
+"*	IGdW	;	:43	#}
+"+	IGdW	;	:45	#l
+",	IVOA	;	">	:46	$&
+"-	IGdW	;	:48	#m
+".	IGdW	;	:49	#|
+"/	IGdW	;	:51	#j
+"0	IVOA	;	"?	:52	$%
+"1	IGdW	;	:54	#k
+"2	IGdW	;	:55	#{
+"3	IGdW	;	:57	#z
+"4	IGdW	;	:60	#i
+"5	IGdW	;	:61	#h
+"6	IGdW	;	:63	$-
+"7	IGdW	;	:9	$,
+"8	INum	;	q	Q0	$)
+"9	INum	;	r	Q1	$*
+":	INum	;	s	Q2	$+
+";	INum	;	t	Q3	$$
+"<	INum	;	"$	Q4	$(
+"=	INum	;	"(	Q5	$'
+">	INum	;	",	Q6	$&
+"?	INum	;	"0	Q7	$%
+"@	V34_	J	"e	1	"A	2	1	2	:10	$h
+"A	[7tw	J	"f	1	"B	1	2	1	2	:11	$i
+"B	[7tw	J	"g	1	"C	1	2	1	2	:12	$j
+"C	[7tw	J	"h	1	"Q	1	2	1	2	:13	$c
+"D	IGdW	J	:14	$Z
+"E	IGdW	J	:15	$`
+"F	IGdW	J	:16	$a
+"G	IGdW	J	:17	$b
+"H	IGdW	J	:23	$S
+"I	IGdW	J	:24	$T
+"J	IGdW	J	:25	$U
+"K	IGdW	J	:26	$V
+"L	IGdW	J	:27	$W
+"M	IGdW	J	:28	$X
+"N	IGdW	J	:29	$Y
+"O	IGdW	J	:30	$H
+"P	IGdW	J	:33	$Q
+"Q	[7tw	J	"i	1	"U	1	2	1	2	:34	$g
+"R	IGdW	J	:36	$R
+"S	IGdW	J	:37	$_
+"T	IGdW	J	:39	$O
+"U	[7tw	J	"j	1	"Y	1	2	1	2	:40	$f
+"V	IGdW	J	:42	$P
+"W	IGdW	J	:43	$^
+"X	IGdW	J	:45	$M
+"Y	[7tw	J	"k	1	"]	1	2	1	2	:46	$e
+"Z	IGdW	J	:48	$N
+"[	IGdW	J	:49	$]
+"\	IGdW	J	:51	$K
+"]	[7tw	J	"l	3	G	E	&	1	2	1	2	:52	$d
+"^	IGdW	J	:54	$L
+"_	IGdW	J	:55	$\
+"`	IGdW	J	:57	$[
+"a	IGdW	J	:60	$J
+"b	IGdW	J	:61	$I
+"c	IGdW	J	:63	$l
+"d	IGdW	J	:9	$k
+"e	INvO	J	"@	Q0	$h
+"f	INvO	J	"A	Q1	$i
+"g	INvO	J	"B	Q2	$j
+"h	INvO	J	"C	Q3	$c
+"i	INvO	J	"Q	Q4	$g
+"j	INvO	J	"U	Q5	$f
+"k	INvO	J	"Y	Q6	$e
+"l	INvO	J	"]	Q7	$d

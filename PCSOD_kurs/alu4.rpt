@@ -1,0 +1,830 @@
+Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+
+MAX+plus II Compiler Report File
+Version 10.23 07/09/2003
+Compiled: 03/09/2020 21:55:17
+
+Copyright (C) 1988-2003 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+alu4      EPM3064ATC100-4  19       16       0      32      15          50 %
+
+User Pins:                 19       16       0  
+
+
+
+Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+
+** AUTO GLOBAL SIGNALS **
+
+
+
+INFO: Signal 'CLK' chosen for auto global Clock
+
+
+Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+
+** FILE HIERARCHY **
+
+
+
+|counter8:8|
+|register8:18|
+|register8:20|
+|alu:48|
+|main_machine:49|
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+***** Logic for device 'alu4' compiled without errors.
+
+
+
+
+Device: EPM3064ATC100-4
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    Enable JTAG Support                        = ON
+    User Code                                  = ffffffff
+    MultiVolt I/O                              = OFF
+
+                                              R     R R R        
+                                              E     E E E        
+                                V             S C   S S S        
+                                C             E L V E E E     S  
+                                C             R K C R R R   N D  
+                        G       I G G G C G   V S C V V V G . V  
+              B A A A A N A A A N N N N L N S E D I E E E N C I  
+              3 6 5 4 3 D 2 1 7 T D D D K D 7 D V O D D D D . G  
+            ----------------------------------------------------_ 
+           / 100  98  96  94  92  90  88  86  84  82  80  78  76   |_ 
+          /     99  97  95  93  91  89  87  85  83  81  79  77    | 
+    N.C. |  1                                                    75 | READ 
+    N.C. |  2                                                    74 | GND 
+   VCCIO |  3                                                    73 | #TDO 
+    #TDI |  4                                                    72 | N.C. 
+    N.C. |  5                                                    71 | WRITE 
+      B4 |  6                                                    70 | N.C. 
+    N.C. |  7                                                    69 | SUB 
+      A0 |  8                                                    68 | Si 
+       M |  9                                                    67 | RESERVED 
+      B7 | 10                                                    66 | VCCIO 
+     GND | 11                                                    65 | GND 
+      B6 | 12                                                    64 | RESERVED 
+      B5 | 13                  EPM3064ATC100-4                   63 | RESET 
+   STROB | 14                                                    62 | #TCK 
+    #TMS | 15                                                    61 | RESERVED 
+RESERVED | 16                                                    60 | RESERVED 
+RESERVED | 17                                                    59 | GND 
+   VCCIO | 18                                                    58 | RESERVED 
+RESERVED | 19                                                    57 | RESERVED 
+RESERVED | 20                                                    56 | RESERVED 
+RESERVED | 21                                                    55 | N.C. 
+    N.C. | 22                                                    54 | RESERVED 
+      B2 | 23                                                    53 | GND 
+    N.C. | 24                                                    52 | RESERVED 
+      B1 | 25                                                    51 | VCCIO 
+         |      27  29  31  33  35  37  39  41  43  45  47  49  _| 
+          \   26  28  30  32  34  36  38  40  42  44  46  48  50   | 
+           \----------------------------------------------------- 
+              G N N R R B R G V S R R G V S S S G C S S S R N N  
+              N . . E E 0 E N C 6 E E N C 0 4 5 N L 3 2 1 E . .  
+              D C C S S   S D C   S S D C       D K       S C C  
+                . . E E   E   I   E E   I         W       E . .  
+                    R R   R   O   R R   N         R       R      
+                    V V   V       V V   T                 V      
+                    E E   E       E E                     E      
+                    D D   D       D D                     D      
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (3.3 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (3.3 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)  16/16(100%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     2/16( 12%)   5/15( 33%)   3/16( 18%)   8/36( 22%) 
+C:    LC33 - LC48    14/16( 87%)   8/16( 50%)  15/16( 93%)  31/36( 86%) 
+D:    LC49 - LC64    16/16(100%)   9/15( 60%)  12/16( 75%)  14/36( 38%) 
+
+
+Total dedicated input pins used:                 1/4      ( 25%)
+Total I/O pins used:                            38/62     ( 61%)
+Total logic cells used:                         32/64     ( 50%)
+Total shareable expanders used:                 15/64     ( 23%)
+Total Turbo logic cells used:                   32/64     ( 50%)
+Total shareable expanders not available (n/a):  15/64     ( 23%)
+Average fan-in:                                  5.68
+Total fan-in:                                   182
+
+Total input pins required:                      19
+Total output pins required:                     16
+Total bidirectional pins required:               0
+Total reserved pins required                     4
+Total logic cells required:                     32
+Total flipflops required:                       23
+Total product terms required:                  124
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          11
+
+Synthesized logic cells:                         0/  64   (  0%)
+
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   8    (6)  (A)      INPUT               0      0   0    0    0    1    0  A0
+  93   (15)  (A)      INPUT               0      0   0    0    0    1    0  A1
+  94   (14)  (A)      INPUT               0      0   0    0    0    1    0  A2
+  96   (13)  (A)      INPUT               0      0   0    0    0    1    0  A3
+  97   (12)  (A)      INPUT               0      0   0    0    0    1    0  A4
+  98   (11)  (A)      INPUT               0      0   0    0    0    1    0  A5
+  99   (10)  (A)      INPUT               0      0   0    0    0    1    0  A6
+  92   (16)  (A)      INPUT               0      0   0    0    0    1    0  A7
+  31   (22)  (B)      INPUT               0      0   0    0    0    0    1  B0
+  25   (25)  (B)      INPUT               0      0   0    0    0    0    1  B1
+  23   (26)  (B)      INPUT               0      0   0    0    0    0    1  B2
+ 100    (9)  (A)      INPUT               0      0   0    0    0    0    1  B3
+   6    (7)  (A)      INPUT               0      0   0    0    0    0    1  B4
+  13    (2)  (A)      INPUT               0      0   0    0    0    0    1  B5
+  12    (3)  (A)      INPUT               0      0   0    0    0    0    1  B6
+  10    (4)  (A)      INPUT               0      0   0    0    0    0    1  B7
+  87      -   -       INPUT  G            0      0   0    0    0    0    1  CLK
+   9    (5)  (A)      INPUT               0      0   0    0    0    1    1  M
+  14    (1)  (A)      INPUT               0      0   0    0    0   11    9  STROB
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  83     62    D     OUTPUT      t        0      0   0    0    4    0    0  CLKSDV
+  44     36    C     OUTPUT      t        0      0   0    1    3    0    0  CLKWR
+  75     57    D     OUTPUT      t        0      0   0    0    3    0    0  READ
+  63     49    D     OUTPUT      t        0      0   0    0    2    0    0  RESET
+  76     58    D     OUTPUT      t        0      0   0    0    3    0    0  SDVIG
+  68     53    D     OUTPUT      t        0      0   0    0    3    0    0  Si
+  69     54    D     OUTPUT      t        0      0   0    2    2    0    0  SUB
+  40     33    C         FF      t        3      2   1    2    5    2    1  S0 (|register8:18|:52)
+  47     39    C         FF      t        3      2   1    2    5    1    0  S1 (|register8:18|:46)
+  46     38    C         FF      t        3      2   1    2    5    1    0  S2 (|register8:18|:40)
+  45     37    C         FF      t        3      2   1    2    5    1    0  S3 (|register8:18|:34)
+  41     34    C         FF      t        3      2   1    2    5    1    0  S4 (|register8:18|:13)
+  42     35    C         FF      t        3      2   1    2    5    1    0  S5 (|register8:18|:12)
+  35     19    B         FF      t        3      2   1    2    5    1    0  S6 (|register8:18|:11)
+  85     64    D         FF      t       10      2   0    2    7    1    0  S7 (|register8:18|:10)
+  71     55    D     OUTPUT      t        0      0   0    1    2    0    0  WRITE
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (84)    63    D       TFFE      t        0      0   0    0    4    0    3  |counter8:8|Q1 (|counter8:8|:2)
+ (81)    61    D       TFFE      t        0      0   0    0    5    0    2  |counter8:8|Q2 (|counter8:8|:4)
+ (80)    60    D       TFFE      t        0      0   0    0    6    0    1  |counter8:8|Q4 (|counter8:8|:5)
+ (67)    52    D       TFFE      t        0      0   0    0    7   11   15  |counter8:8|Q8 (|counter8:8|:6)
+ (64)    50    D       TFFE   +  t        0      0   0    1    3   15   15  |main_machine:49|:110
+   -     51    D       DFFE   +  t        0      0   0    0    3   15   15  |main_machine:49|:111
+ (79)    59    D       DFFE      t        2      2   0    2    4    0    1  |register8:20|Q0 (|register8:20|:10)
+ (56)    43    C       DFFE      t        3      2   1    2    5    0    1  |register8:20|Q1 (|register8:20|:11)
+ (57)    44    C       DFFE      t        3      2   1    2    5    0    1  |register8:20|Q2 (|register8:20|:12)
+ (61)    47    C       DFFE      t        3      2   1    2    5    0    1  |register8:20|Q3 (|register8:20|:13)
+ (54)    42    C       DFFE      t        3      2   1    2    5    0    1  |register8:20|Q4 (|register8:20|:34)
+ (52)    41    C       DFFE      t        3      2   1    2    5    0    1  |register8:20|Q5 (|register8:20|:40)
+ (58)    45    C       DFFE      t        3      2   1    2    5    0    1  |register8:20|Q6 (|register8:20|:46)
+ (48)    40    C       DFFE      t        3      2   1    2    5    2    1  |register8:20|Q7 (|register8:20|:52)
+ (73)    56    D       DFFE      t        2      0   1    1    7    2    1  :6
+   -     20    B      LCELL      t        0      0   0    1    0   10   13  :44
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+             Logic cells placed in LAB 'B'
+        +--- LC19 S6
+        | +- LC20 :44
+        | | 
+        | |   Other LABs fed by signals
+        | |   that feed LAB 'B'
+LC      | | | A B C D |     Logic cells that feed LAB 'B':
+LC20 -> * - | - * * * | <-- :44
+
+Pin
+99   -> * - | - * - - | <-- A6
+87   -> - * | - * - - | <-- CLK
+14   -> * - | - * * * | <-- STROB
+LC52 -> * - | - * * * | <-- |counter8:8|Q8
+LC50 -> * - | - * * * | <-- |main_machine:49|:110
+LC51 -> * - | - * * * | <-- |main_machine:49|:111
+LC64 -> * - | - * - - | <-- S7
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                     Logic cells placed in LAB 'C'
+        +--------------------------- LC36 CLKWR
+        | +------------------------- LC43 |register8:20|Q1
+        | | +----------------------- LC44 |register8:20|Q2
+        | | | +--------------------- LC47 |register8:20|Q3
+        | | | | +------------------- LC42 |register8:20|Q4
+        | | | | | +----------------- LC41 |register8:20|Q5
+        | | | | | | +--------------- LC45 |register8:20|Q6
+        | | | | | | | +------------- LC40 |register8:20|Q7
+        | | | | | | | | +----------- LC33 S0
+        | | | | | | | | | +--------- LC39 S1
+        | | | | | | | | | | +------- LC38 S2
+        | | | | | | | | | | | +----- LC37 S3
+        | | | | | | | | | | | | +--- LC34 S4
+        | | | | | | | | | | | | | +- LC35 S5
+        | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'C':
+LC43 -> - - * - - - - - - - - - - - | - - * - | <-- |register8:20|Q1
+LC44 -> - - - * - - - - - - - - - - | - - * - | <-- |register8:20|Q2
+LC47 -> - - - - * - - - - - - - - - | - - * - | <-- |register8:20|Q3
+LC42 -> - - - - - * - - - - - - - - | - - * - | <-- |register8:20|Q4
+LC41 -> - - - - - - * - - - - - - - | - - * - | <-- |register8:20|Q5
+LC45 -> - - - - - - - * - - - - - - | - - * - | <-- |register8:20|Q6
+LC39 -> - - - - - - - - * - - - - - | - - * - | <-- S1
+LC38 -> - - - - - - - - - * - - - - | - - * - | <-- S2
+LC37 -> - - - - - - - - - - * - - - | - - * - | <-- S3
+LC34 -> - - - - - - - - - - - * - - | - - * - | <-- S4
+LC35 -> - - - - - - - - - - - - * - | - - * - | <-- S5
+
+Pin
+8    -> - - - - - - - - * - - - - - | - - * - | <-- A0
+93   -> - - - - - - - - - * - - - - | - - * - | <-- A1
+94   -> - - - - - - - - - - * - - - | - - * - | <-- A2
+96   -> - - - - - - - - - - - * - - | - - * - | <-- A3
+97   -> - - - - - - - - - - - - * - | - - * - | <-- A4
+98   -> - - - - - - - - - - - - - * | - - * - | <-- A5
+31   -> - - - - - - - * - - - - - - | - - * - | <-- B0
+25   -> - - - - - - * - - - - - - - | - - * - | <-- B1
+23   -> - - - - - * - - - - - - - - | - - * - | <-- B2
+100  -> - - - - * - - - - - - - - - | - - * - | <-- B3
+6    -> - - - * - - - - - - - - - - | - - * - | <-- B4
+13   -> - - * - - - - - - - - - - - | - - * - | <-- B5
+12   -> - * - - - - - - - - - - - - | - - * - | <-- B6
+87   -> - - - - - - - - - - - - - - | - * - - | <-- CLK
+14   -> * * * * * * * * * * * * * * | - * * * | <-- STROB
+LC52 -> - * * * * * * * * * * * * * | - * * * | <-- |counter8:8|Q8
+LC50 -> * * * * * * * * * * * * * * | - * * * | <-- |main_machine:49|:110
+LC51 -> * * * * * * * * * * * * * * | - * * * | <-- |main_machine:49|:111
+LC59 -> - * - - - - - - - - - - - - | - - * - | <-- |register8:20|Q0
+LC19 -> - - - - - - - - - - - - - * | - - * - | <-- S6
+LC20 -> * * * * * * * * * * * * * * | - * * * | <-- :44
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                         Logic cells placed in LAB 'D'
+        +------------------------------- LC62 CLKSDV
+        | +----------------------------- LC63 |counter8:8|Q1
+        | | +--------------------------- LC61 |counter8:8|Q2
+        | | | +------------------------- LC60 |counter8:8|Q4
+        | | | | +----------------------- LC52 |counter8:8|Q8
+        | | | | | +--------------------- LC50 |main_machine:49|:110
+        | | | | | | +------------------- LC51 |main_machine:49|:111
+        | | | | | | | +----------------- LC57 READ
+        | | | | | | | | +--------------- LC59 |register8:20|Q0
+        | | | | | | | | | +------------- LC49 RESET
+        | | | | | | | | | | +----------- LC58 SDVIG
+        | | | | | | | | | | | +--------- LC53 Si
+        | | | | | | | | | | | | +------- LC54 SUB
+        | | | | | | | | | | | | | +----- LC64 S7
+        | | | | | | | | | | | | | | +--- LC55 WRITE
+        | | | | | | | | | | | | | | | +- LC56 :6
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'D':
+LC63 -> - * * * * - - - - - - - - - - - | - - - * | <-- |counter8:8|Q1
+LC61 -> - - * * * - - - - - - - - - - - | - - - * | <-- |counter8:8|Q2
+LC60 -> - - - * * - - - - - - - - - - - | - - - * | <-- |counter8:8|Q4
+LC52 -> * * * * * * * * * - * - - * - * | - * * * | <-- |counter8:8|Q8
+LC50 -> * * * * * * * * * * * - * * * * | - * * * | <-- |main_machine:49|:110
+LC51 -> * * * * * * * * * * * - * * * * | - * * * | <-- |main_machine:49|:111
+LC56 -> - - - - - - - - - - - * - * - * | - - - * | <-- :6
+
+Pin
+92   -> - - - - - - - - - - - - - * - - | - - - * | <-- A7
+10   -> - - - - - - - - * - - - - - - - | - - - * | <-- B7
+87   -> - - - - - - - - - - - - - - - - | - * - - | <-- CLK
+9    -> - - - - - - - - - - - - * - - * | - - - * | <-- M
+14   -> - - - - - * - - * - - - * * * - | - * * * | <-- STROB
+LC40 -> - - - - - - - - - - - * - * - * | - - - * | <-- |register8:20|Q7
+LC33 -> - - - - - - - - - - - * - * - * | - - - * | <-- S0
+LC20 -> * * * * * - - - * - - - - * - * | - * * * | <-- :44
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+alu4
+
+** EQUATIONS **
+
+A0       : INPUT;
+A1       : INPUT;
+A2       : INPUT;
+A3       : INPUT;
+A4       : INPUT;
+A5       : INPUT;
+A6       : INPUT;
+A7       : INPUT;
+B0       : INPUT;
+B1       : INPUT;
+B2       : INPUT;
+B3       : INPUT;
+B4       : INPUT;
+B5       : INPUT;
+B6       : INPUT;
+B7       : INPUT;
+CLK      : INPUT;
+M        : INPUT;
+STROB    : INPUT;
+
+-- Node name is 'CLKSDV' 
+-- Equation name is 'CLKSDV', location is LC062, type is output.
+ CLKSDV  = LCELL( _EQ001 $  GND);
+  _EQ001 =  _LC020 &  _LC050 &  _LC051 & !_LC052;
+
+-- Node name is 'CLKWR' 
+-- Equation name is 'CLKWR', location is LC036, type is output.
+ CLKWR   = LCELL( _EQ002 $  GND);
+  _EQ002 =  _LC020 & !_LC050 &  _LC051 &  STROB;
+
+-- Node name is 'READ' 
+-- Equation name is 'READ', location is LC057, type is output.
+ READ    = LCELL( _EQ003 $  GND);
+  _EQ003 =  _LC050 &  _LC051 &  _LC052;
+
+-- Node name is 'RESET' 
+-- Equation name is 'RESET', location is LC049, type is output.
+ RESET   = LCELL( _EQ004 $  GND);
+  _EQ004 = !_LC050 & !_LC051;
+
+-- Node name is 'SDVIG' 
+-- Equation name is 'SDVIG', location is LC058, type is output.
+ SDVIG   = LCELL( _EQ005 $  GND);
+  _EQ005 =  _LC050 &  _LC051 & !_LC052;
+
+-- Node name is 'Si' 
+-- Equation name is 'Si', location is LC053, type is output.
+ Si      = LCELL( _EQ006 $  _LC056);
+  _EQ006 =  _LC040 & !S0
+         # !_LC040 &  S0;
+
+-- Node name is 'SUB' 
+-- Equation name is 'SUB', location is LC054, type is output.
+ SUB     = LCELL( _EQ007 $  GND);
+  _EQ007 = !_LC050 &  _LC051 &  M &  STROB;
+
+-- Node name is 'S0' = '|register8:18|Q7' 
+-- Equation name is 'S0', type is output 
+ S0      = DFFE( _EQ008 $  S1,  _EQ009, !_EQ010,  VCC,  VCC);
+  _EQ008 =  A0 & !_LC050 &  _LC051 &  STROB & !S1
+         # !A0 & !_LC050 &  _LC051 &  STROB &  S1;
+  _EQ009 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ010 = !_LC050 & !_LC051;
+
+-- Node name is 'S1' = '|register8:18|Q6' 
+-- Equation name is 'S1', type is output 
+ S1      = DFFE( _EQ011 $  S2,  _EQ012, !_EQ013,  VCC,  VCC);
+  _EQ011 =  A1 & !_LC050 &  _LC051 &  STROB & !S2
+         # !A1 & !_LC050 &  _LC051 &  STROB &  S2;
+  _EQ012 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ013 = !_LC050 & !_LC051;
+
+-- Node name is 'S2' = '|register8:18|Q5' 
+-- Equation name is 'S2', type is output 
+ S2      = DFFE( _EQ014 $  S3,  _EQ015, !_EQ016,  VCC,  VCC);
+  _EQ014 =  A2 & !_LC050 &  _LC051 &  STROB & !S3
+         # !A2 & !_LC050 &  _LC051 &  STROB &  S3;
+  _EQ015 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ016 = !_LC050 & !_LC051;
+
+-- Node name is 'S3' = '|register8:18|Q4' 
+-- Equation name is 'S3', type is output 
+ S3      = DFFE( _EQ017 $  S4,  _EQ018, !_EQ019,  VCC,  VCC);
+  _EQ017 =  A3 & !_LC050 &  _LC051 &  STROB & !S4
+         # !A3 & !_LC050 &  _LC051 &  STROB &  S4;
+  _EQ018 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ019 = !_LC050 & !_LC051;
+
+-- Node name is 'S4' = '|register8:18|Q3' 
+-- Equation name is 'S4', type is output 
+ S4      = DFFE( _EQ020 $  S5,  _EQ021, !_EQ022,  VCC,  VCC);
+  _EQ020 =  A4 & !_LC050 &  _LC051 &  STROB & !S5
+         # !A4 & !_LC050 &  _LC051 &  STROB &  S5;
+  _EQ021 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ022 = !_LC050 & !_LC051;
+
+-- Node name is 'S5' = '|register8:18|Q2' 
+-- Equation name is 'S5', type is output 
+ S5      = DFFE( _EQ023 $  S6,  _EQ024, !_EQ025,  VCC,  VCC);
+  _EQ023 =  A5 & !_LC050 &  _LC051 &  STROB & !S6
+         # !A5 & !_LC050 &  _LC051 &  STROB &  S6;
+  _EQ024 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ025 = !_LC050 & !_LC051;
+
+-- Node name is 'S6' = '|register8:18|Q1' 
+-- Equation name is 'S6', type is output 
+ S6      = DFFE( _EQ026 $  S7,  _EQ027, !_EQ028,  VCC,  VCC);
+  _EQ026 =  A6 & !_LC050 &  _LC051 &  STROB & !S7
+         # !A6 & !_LC050 &  _LC051 &  STROB &  S7;
+  _EQ027 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ028 = !_LC050 & !_LC051;
+
+-- Node name is 'S7' = '|register8:18|Q0' 
+-- Equation name is 'S7', type is output 
+ S7      = DFFE( _EQ029 $ !_LC040,  _EQ030, !_EQ031,  VCC,  VCC);
+  _EQ029 =  _X003 &  _X004 &  _X005 &  _X006 &  _X007 &  _X008 &  _X009 & 
+              _X010;
+  _X003  = EXP(!A7 &  _LC040 & !_LC050 &  _LC051 &  STROB);
+  _X004  = EXP( A7 & !_LC040 & !_LC050 &  _LC051 &  STROB);
+  _X005  = EXP( _LC050 & !_LC056 &  S0);
+  _X006  = EXP( _LC050 &  _LC056 & !S0);
+  _X007  = EXP(!_LC051 & !_LC056 &  S0);
+  _X008  = EXP(!_LC056 & !STROB &  S0);
+  _X009  = EXP(!_LC051 &  _LC056 & !S0);
+  _X010  = EXP( _LC056 & !STROB & !S0);
+  _EQ030 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ031 = !_LC050 & !_LC051;
+
+-- Node name is 'WRITE' 
+-- Equation name is 'WRITE', location is LC055, type is output.
+ WRITE   = LCELL( _EQ032 $  GND);
+  _EQ032 = !_LC050 &  _LC051 &  STROB;
+
+-- Node name is '|counter8:8|:2' = '|counter8:8|Q1' 
+-- Equation name is '_LC063', type is buried 
+_LC063   = TFFE( VCC,  _EQ033, !_EQ034,  VCC,  VCC);
+  _EQ033 =  _LC020 &  _LC050 &  _LC051 & !_LC052;
+  _EQ034 = !_LC050 & !_LC051;
+
+-- Node name is '|counter8:8|:4' = '|counter8:8|Q2' 
+-- Equation name is '_LC061', type is buried 
+_LC061   = TFFE( _LC063,  _EQ035, !_EQ036,  VCC,  VCC);
+  _EQ035 =  _LC020 &  _LC050 &  _LC051 & !_LC052;
+  _EQ036 = !_LC050 & !_LC051;
+
+-- Node name is '|counter8:8|:5' = '|counter8:8|Q4' 
+-- Equation name is '_LC060', type is buried 
+_LC060   = TFFE( _EQ037,  _EQ038, !_EQ039,  VCC,  VCC);
+  _EQ037 =  _LC061 &  _LC063;
+  _EQ038 =  _LC020 &  _LC050 &  _LC051 & !_LC052;
+  _EQ039 = !_LC050 & !_LC051;
+
+-- Node name is '|counter8:8|:6' = '|counter8:8|Q8' 
+-- Equation name is '_LC052', type is buried 
+_LC052   = TFFE( _EQ040,  _EQ041, !_EQ042,  VCC,  VCC);
+  _EQ040 =  _LC060 &  _LC061 &  _LC063;
+  _EQ041 =  _LC020 &  _LC050 &  _LC051 & !_LC052;
+  _EQ042 = !_LC050 & !_LC051;
+
+-- Node name is '|main_machine:49|:110' 
+-- Equation name is '_LC050', type is buried 
+_LC050   = TFFE( _EQ043, GLOBAL( CLK),  VCC,  VCC,  VCC);
+  _EQ043 =  _LC050 &  _LC051 &  _LC052
+         # !_LC050 &  _LC051 &  STROB;
+
+-- Node name is '|main_machine:49|:111' 
+-- Equation name is '_LC051', type is buried 
+_LC051   = DFFE( _EQ044 $ !_LC050, GLOBAL( CLK),  VCC,  VCC,  VCC);
+  _EQ044 =  _LC050 &  _LC051 & !_LC052;
+
+-- Node name is '|register8:20|:10' = '|register8:20|Q0' 
+-- Equation name is '_LC059', type is buried 
+_LC059   = DFFE( _EQ045 $  GND,  _EQ046, !_EQ047,  VCC,  VCC);
+  _EQ045 =  B7 & !_LC050 &  _LC051 &  STROB;
+  _EQ046 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ047 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:11' = '|register8:20|Q1' 
+-- Equation name is '_LC043', type is buried 
+_LC043   = DFFE( _EQ048 $  _LC059,  _EQ049, !_EQ050,  VCC,  VCC);
+  _EQ048 =  B6 & !_LC050 &  _LC051 & !_LC059 &  STROB
+         # !B6 & !_LC050 &  _LC051 &  _LC059 &  STROB;
+  _EQ049 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ050 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:12' = '|register8:20|Q2' 
+-- Equation name is '_LC044', type is buried 
+_LC044   = DFFE( _EQ051 $  _LC043,  _EQ052, !_EQ053,  VCC,  VCC);
+  _EQ051 =  B5 & !_LC043 & !_LC050 &  _LC051 &  STROB
+         # !B5 &  _LC043 & !_LC050 &  _LC051 &  STROB;
+  _EQ052 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ053 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:13' = '|register8:20|Q3' 
+-- Equation name is '_LC047', type is buried 
+_LC047   = DFFE( _EQ054 $  _LC044,  _EQ055, !_EQ056,  VCC,  VCC);
+  _EQ054 =  B4 & !_LC044 & !_LC050 &  _LC051 &  STROB
+         # !B4 &  _LC044 & !_LC050 &  _LC051 &  STROB;
+  _EQ055 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ056 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:34' = '|register8:20|Q4' 
+-- Equation name is '_LC042', type is buried 
+_LC042   = DFFE( _EQ057 $  _LC047,  _EQ058, !_EQ059,  VCC,  VCC);
+  _EQ057 =  B3 & !_LC047 & !_LC050 &  _LC051 &  STROB
+         # !B3 &  _LC047 & !_LC050 &  _LC051 &  STROB;
+  _EQ058 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ059 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:40' = '|register8:20|Q5' 
+-- Equation name is '_LC041', type is buried 
+_LC041   = DFFE( _EQ060 $  _LC042,  _EQ061, !_EQ062,  VCC,  VCC);
+  _EQ060 =  B2 & !_LC042 & !_LC050 &  _LC051 &  STROB
+         # !B2 &  _LC042 & !_LC050 &  _LC051 &  STROB;
+  _EQ061 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ062 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:46' = '|register8:20|Q6' 
+-- Equation name is '_LC045', type is buried 
+_LC045   = DFFE( _EQ063 $  _LC041,  _EQ064, !_EQ065,  VCC,  VCC);
+  _EQ063 =  B1 & !_LC041 & !_LC050 &  _LC051 &  STROB
+         # !B1 &  _LC041 & !_LC050 &  _LC051 &  STROB;
+  _EQ064 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ065 = !_LC050 & !_LC051;
+
+-- Node name is '|register8:20|:52' = '|register8:20|Q7' 
+-- Equation name is '_LC040', type is buried 
+_LC040   = DFFE( _EQ066 $  _LC045,  _EQ067, !_EQ068,  VCC,  VCC);
+  _EQ066 =  B0 & !_LC045 & !_LC050 &  _LC051 &  STROB
+         # !B0 &  _LC045 & !_LC050 &  _LC051 &  STROB;
+  _EQ067 =  _LC020 &  _LC051 &  _X001 &  _X002;
+  _X001  = EXP(!_LC050 & !STROB);
+  _X002  = EXP( _LC050 &  _LC052);
+  _EQ068 = !_LC050 & !_LC051;
+
+-- Node name is ':6' 
+-- Equation name is '_LC056', type is buried 
+_LC056   = DFFE( _EQ069 $  GND,  _EQ070, !_EQ071,  VCC,  VCC);
+  _EQ069 = !_LC040 &  M &  _X011
+         #  _LC040 & !M &  _X011
+         #  _LC056 &  S0;
+  _X011  = EXP(!_LC056 & !S0);
+  _EQ070 =  _LC020 &  _LC050 &  _LC051 & !_LC052;
+  _EQ071 = !_LC050 & !_LC051;
+
+-- Node name is ':44' 
+-- Equation name is '_LC020', type is buried 
+_LC020   = LCELL( CLK $  GND);
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X001 occurs in LABs B, C, D
+--    _X002 occurs in LABs B, C, D
+
+
+
+
+Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu4.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX3000A' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:01
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 3,978K
