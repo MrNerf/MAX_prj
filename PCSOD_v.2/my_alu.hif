@@ -34,5 +34,12 @@ FILES
 }
 TREE
 {
-	my_alu::(0,0):(0): my_alu.gdf;
+	my_alu::(0,0):(0): my_alu.gdf
+	{
+		alu::(0,0):(11): alu.gdf;
+		counter::(0,0):(10): counter.gdf;
+		m_machine::(0,0):(8): m_machine.gdf;
+		reg9::(0,0):(7): reg9.gdf;
+		reg9::(0,0):(6): reg9.gdf;
+	}
 }
