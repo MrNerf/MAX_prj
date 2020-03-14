@@ -1,8 +1,8 @@
-Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Project Information                        d:\max_projects\pcsod_kurs\alu8.rpt
 
 MAX+plus II Compiler Report File
 Version 10.23 07/09/2003
-Compiled: 03/12/2020 22:57:19
+Compiled: 03/14/2020 16:10:14
 
 Copyright (C) 1988-2003 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -42,7 +42,7 @@ User Pins:                 19       20       0
 
 
 
-Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Project Information                        d:\max_projects\pcsod_kurs\alu8.rpt
 
 ** AUTO GLOBAL SIGNALS **
 
@@ -51,7 +51,7 @@ Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
 INFO: Signal 'CLK' chosen for auto global Clock
 
 
-Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Project Information                        d:\max_projects\pcsod_kurs\alu8.rpt
 
 ** FILE HIERARCHY **
 
@@ -64,7 +64,7 @@ Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
 |main_machine:13|
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ***** Logic for device 'alu8' compiled without errors.
@@ -145,7 +145,7 @@ PDn = Power Down pin.
 & = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** RESOURCE USAGE **
@@ -182,7 +182,7 @@ Synthesized logic cells:                         0/  64   (  0%)
 
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** INPUTS **
@@ -226,7 +226,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** OUTPUTS **
@@ -266,7 +266,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** BURIED LOGIC **
@@ -298,7 +298,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -328,7 +328,7 @@ LC49 -> * - | - * * * | <-- Z3
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -394,7 +394,7 @@ LC22 -> * * * * * * * * * * * * * * | - * * * | <-- :31
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -446,7 +446,7 @@ LC22 -> * - - - * - - - - * - * * * * * | - * * * | <-- :31
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Device-Specific Information:               d:\max_projects\pcsod_kurs\alu8.rpt
 alu8
 
 ** EQUATIONS **
@@ -740,7 +740,7 @@ _LC022   = LCELL( CLK $  GND);
 
 
 
-Project Information         d:\programmes\max\max_projects\pcsod_kurs\alu8.rpt
+Project Information                        d:\max_projects\pcsod_kurs\alu8.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -818,9 +818,9 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:00
-   Timing SNF Extractor                   00:00:01
+   Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
    Total Time                             00:00:01
@@ -829,4 +829,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,276K
+Peak memory allocated during compilation  = 3,303K
