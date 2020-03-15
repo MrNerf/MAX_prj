@@ -24,32 +24,32 @@ HIF003
 --
 FILES
 {
+	contr_machine.gdf
+	{
+		contr_machine [] []
+		{
+			9 [] [];
+		}
+	}
 	reg9.gdf
 	{
 		reg9 [] []
 		{
-			1 [] [];
-		}
-	}
-	m_machine.gdf
-	{
-		m_machine [] []
-		{
-			2 [] [];
+			6 [] [];
 		}
 	}
 	counter.gdf
 	{
 		counter [] []
 		{
-			3 [] [];
+			7 [] [];
 		}
 	}
 	alu.gdf
 	{
 		alu [] []
 		{
-			4 [] [];
+			8 [] [];
 		}
 	}
 	my_alu.gdf
@@ -64,9 +64,9 @@ TREE
 {
 	my_alu::(0,0):(0): my_alu.gdf
 	{
+		contr_machine::(0,0):(35): contr_machine.gdf;
 		alu:4:(0,0):(11): alu.gdf;
 		counter:3:(0,0):(10): counter.gdf;
-		m_machine:2:(0,0):(8): m_machine.gdf;
 		reg9:1:(0,0):(7): reg9.gdf;
 		reg9:1:(0,0):(6): reg9.gdf;
 	}
