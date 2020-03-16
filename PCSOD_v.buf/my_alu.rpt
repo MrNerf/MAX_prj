@@ -2,7 +2,7 @@ Project Information                     d:\max_projects\pcsod_v.buf\my_alu.rpt
 
 MAX+plus II Compiler Report File
 Version 10.23 07/09/2003
-Compiled: 03/14/2020 18:24:23
+Compiled: 03/16/2020 15:32:20
 
 Copyright (C) 1988-2003 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -40,17 +40,6 @@ my_alu    EPM3064ATC100-4  19       15       0      39      17          60 %
 
 User Pins:                 19       15       0  
 
-
-
-Project Information                     d:\max_projects\pcsod_v.buf\my_alu.rpt
-
-** PROJECT COMPILATION MESSAGES **
-
-Warning: Ignored primitive symbol "LCELL" (ID :78) it has no output
-Warning: Ignored primitive symbol "LCELL" (ID :77) it has no output
-Warning: Ignored primitive symbol "LCELL" (ID :82) it has no output
-Warning: Ignored primitive symbol "LCELL" (ID :81) it has no output
-Warning: Ignored primitive symbol "LCELL" (ID :79) it has no output
 
 
 Project Information                     d:\max_projects\pcsod_v.buf\my_alu.rpt
@@ -909,14 +898,14 @@ Compilation Times
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
-   Fitter                                 00:00:00
+   Fitter                                 00:00:01
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,408K
+Peak memory allocated during compilation  = 3,342K

@@ -1,8 +1,8 @@
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Project Information              d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 
 MAX+plus II Compiler Report File
 Version 10.23 07/09/2003
-Compiled: 03/14/2020 23:12:15
+Compiled: 03/16/2020 17:54:55
 
 Copyright (C) 1988-2003 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,7 +43,7 @@ User Pins:                 4        5        0
 
 
 
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Project Information              d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 
 ** AUTO GLOBAL SIGNALS **
 
@@ -52,7 +52,7 @@ Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
 INFO: Signal 'CLK' chosen for auto global Clock
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ***** Logic for device 'contr_machine' compiled without errors.
@@ -117,7 +117,7 @@ PDn = Power Down pin.
 & = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** RESOURCE USAGE **
@@ -152,7 +152,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** INPUTS **
@@ -181,7 +181,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** OUTPUTS **
@@ -206,7 +206,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** BURIED LOGIC **
@@ -228,7 +228,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -261,7 +261,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** EQUATIONS **
@@ -315,7 +315,7 @@ Q1       = DFFE( _EQ002 $  GND, GLOBAL( CLK),  VCC,  VCC,  VCC);
 
 
 
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Project Information              d:\max_projects\pcsod_v.2.1\contr_machine.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -391,17 +391,17 @@ Compilation Times
 -----------------
 
    Compiler Netlist Extractor             00:00:00
-   Database Builder                       00:00:00
+   Database Builder                       00:00:01
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,316K
+Peak memory allocated during compilation  = 3,697K

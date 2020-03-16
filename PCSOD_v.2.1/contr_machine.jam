@@ -18,10 +18,10 @@
 ' their respective licensors.  No other licenses, including any licenses
 ' needed under any third party's intellectual property, are provided herein.
 
-'Device #1: EPM3032A - d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.pof Sat Mar 14 20:12:15 2020
+'Device #1: EPM3032A - d:\max_projects\pcsod_v.2.1\contr_machine.pof Mon Mar 16 14:54:55 2020
 
 NOTE "CREATOR" "Altera Jam/STAPL Composer Version 10.23 07/09/2003";
-NOTE "DATE" "2020/03/14";
+NOTE "DATE" "2020/03/16";
 NOTE "DEVICE" "EPM3032A";
 NOTE "FILE" "contr_machine.pof";
 NOTE "TARGET" "1";
@@ -1496,4 +1496,4 @@ L386:
 V48 = V93;
 ENDPROC;
 ' END OF FILE
-CRC D640;
+CRC 2DEF;

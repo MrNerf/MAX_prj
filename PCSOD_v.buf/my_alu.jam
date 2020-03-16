@@ -18,10 +18,10 @@
 ' their respective licensors.  No other licenses, including any licenses
 ' needed under any third party's intellectual property, are provided herein.
 
-'Device #1: EPM3064A - d:\max_projects\pcsod_v.buf\my_alu.pof Sat Mar 14 15:24:23 2020
+'Device #1: EPM3064A - d:\max_projects\pcsod_v.buf\my_alu.pof Mon Mar 16 12:32:20 2020
 
 NOTE "CREATOR" "Altera Jam/STAPL Composer Version 10.23 07/09/2003";
-NOTE "DATE" "2020/03/14";
+NOTE "DATE" "2020/03/16";
 NOTE "DEVICE" "EPM3064A";
 NOTE "FILE" "my_alu.pof";
 NOTE "TARGET" "1";
@@ -1514,4 +1514,4 @@ L386:
 V48 = V93;
 ENDPROC;
 ' END OF FILE
-CRC 9227;
+CRC 5A89;
