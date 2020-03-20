@@ -1,8 +1,8 @@
-Project Information       d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Project Information                    e:\max_projects\pcsod_v.2.1\counter.rpt
 
 MAX+plus II Compiler Report File
 Version 10.23 07/09/2003
-Compiled: 03/11/2020 21:18:04
+Compiled: 03/20/2020 12:46:38
 
 Copyright (C) 1988-2003 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -36,22 +36,13 @@ needed under any third party's intellectual property, are provided herein.
 Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
-counter   EPM3032ALC44-4   2        4        0      4       0           12 %
+counter   EPM3032ALC44-4   3        4        0      4       0           12 %
 
-User Pins:                 2        4        0  
+User Pins:                 3        4        0  
 
 
 
-Project Information       d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
-
-** AUTO GLOBAL SIGNALS **
-
-
-
-INFO: Signal 'CLK' chosen for auto global Clock
-
-
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Device-Specific Information:           e:\max_projects\pcsod_v.2.1\counter.rpt
 counter
 
 ***** Logic for device 'counter' compiled without errors.
@@ -68,14 +59,14 @@ Device Options:
     User Code                                  = ffffffff
     MultiVolt I/O                              = OFF
 
-              R  R                             
-              E  E                             
-              S  S     V                       
-              E  E     C                       
-              R  R     C                       
-              V  V     I  G  G  G  C  G        
-              E  E     N  N  N  N  L  N  Q  Q  
-              D  D  R  T  D  D  D  K  D  4  2  
+                                               
+                                               
+                       V                       
+                       C                       
+                       C                       
+              E  C     I  G  G  G  G  G        
+              N  L     N  N  N  N  N  N  Q  Q  
+              A  K  R  T  D  D  D  D  D  4  2  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
     #TDI |  7                                39 | Q1 
@@ -116,7 +107,7 @@ PDn = Power Down pin.
 & = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Device-Specific Information:           e:\max_projects\pcsod_v.2.1\counter.rpt
 counter
 
 ** RESOURCE USAGE **
@@ -124,26 +115,26 @@ counter
                                                 Shareable     External
 Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
 
-A:     LC1 - LC16     0/16(  0%)   3/15( 20%)   0/16(  0%)   0/36(  0%) 
-B:    LC17 - LC32     4/16( 25%)   6/15( 40%)   0/16(  0%)   4/36( 11%) 
+A:     LC1 - LC16     0/16(  0%)   5/15( 33%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     4/16( 25%)   6/15( 40%)   0/16(  0%)   6/36( 16%) 
 
 
-Total dedicated input pins used:                 1/4      ( 25%)
-Total I/O pins used:                             9/30     ( 30%)
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            11/30     ( 36%)
 Total logic cells used:                          4/32     ( 12%)
 Total shareable expanders used:                  0/32     (  0%)
 Total Turbo logic cells used:                    4/32     ( 12%)
 Total shareable expanders not available (n/a):   0/32     (  0%)
-Average fan-in:                                  4.50
-Total fan-in:                                    18
+Average fan-in:                                  5.50
+Total fan-in:                                    22
 
-Total input pins required:                       2
+Total input pins required:                       3
 Total output pins required:                      4
 Total bidirectional pins required:               0
 Total reserved pins required                     4
 Total logic cells required:                      4
 Total flipflops required:                        4
-Total product terms required:                    8
+Total product terms required:                   12
 Total logic cells lending parallel expanders:    0
 Total shareable expanders in database:           0
 
@@ -151,7 +142,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Device-Specific Information:           e:\max_projects\pcsod_v.2.1\counter.rpt
 counter
 
 ** INPUTS **
@@ -159,7 +150,8 @@ counter
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  43      -   -       INPUT  G            0      0   0    0    0    0    0  CLK
+   5    (2)  (A)      INPUT               0      0   0    0    0    4    0  CLK
+   6    (3)  (A)      INPUT               0      0   0    0    0    4    0  ENA
    4    (1)  (A)      INPUT               0      0   0    0    0    4    0  R
 
 
@@ -171,14 +163,9 @@ t = Turbo logic cell
 / = Slow slew-rate output
 ! = NOT gate push-back
 r = Fitter-inserted logic cell
-G = Global Source. Fan-out destinations counted here do not include destinations
-that are driven using global routing resources. Refer to the Auto Global Signals,
-Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
-Sections of this Report File for information on which signals' fan-outs are used as
-Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Device-Specific Information:           e:\max_projects\pcsod_v.2.1\counter.rpt
 counter
 
 ** OUTPUTS **
@@ -186,10 +173,10 @@ counter
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  39     19    B         FF   +  t        0      0   0    1    0    3    0  Q1
-  40     18    B         FF   +  t        0      0   0    1    1    2    0  Q2
-  41     17    B         FF   +  t        0      0   0    1    2    1    0  Q4
-  37     21    B         FF   +  t        0      0   0    1    3    0    0  Q8
+  39     19    B         FF      t        0      0   0    3    0    3    0  Q1
+  40     18    B         FF      t        0      0   0    3    1    2    0  Q2
+  41     17    B         FF      t        0      0   0    3    2    1    0  Q4
+  37     21    B         FF      t        0      0   0    3    3    0    0  Q8
 
 
 Code:
@@ -202,7 +189,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Device-Specific Information:           e:\max_projects\pcsod_v.2.1\counter.rpt
 counter
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -223,7 +210,8 @@ LC18 -> - * * * | - * | <-- Q2
 LC17 -> - - * * | - * | <-- Q4
 
 Pin
-43   -> - - - - | - - | <-- CLK
+5    -> * * * * | - * | <-- CLK
+6    -> * * * * | - * | <-- ENA
 4    -> * * * * | - * | <-- R
 
 
@@ -231,31 +219,36 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Device-Specific Information:           e:\max_projects\pcsod_v.2.1\counter.rpt
 counter
 
 ** EQUATIONS **
 
 CLK      : INPUT;
+ENA      : INPUT;
 R        : INPUT;
 
 -- Node name is 'Q1' = ':14' 
 -- Equation name is 'Q1', type is output 
- Q1      = TFFE( VCC, GLOBAL( CLK), !R,  VCC,  VCC);
+ Q1      = TFFE( VCC,  _EQ001, !R,  VCC,  VCC);
+  _EQ001 =  CLK &  ENA;
 
 -- Node name is 'Q2' = ':13' 
 -- Equation name is 'Q2', type is output 
- Q2      = TFFE( Q1, GLOBAL( CLK), !R,  VCC,  VCC);
+ Q2      = TFFE( Q1,  _EQ002, !R,  VCC,  VCC);
+  _EQ002 =  CLK &  ENA;
 
 -- Node name is 'Q4' = ':12' 
 -- Equation name is 'Q4', type is output 
- Q4      = TFFE( _EQ001, GLOBAL( CLK), !R,  VCC,  VCC);
-  _EQ001 =  Q1 &  Q2;
+ Q4      = TFFE( _EQ003,  _EQ004, !R,  VCC,  VCC);
+  _EQ003 =  Q1 &  Q2;
+  _EQ004 =  CLK &  ENA;
 
 -- Node name is 'Q8' = ':11' 
 -- Equation name is 'Q8', type is output 
- Q8      = TFFE( _EQ002, GLOBAL( CLK), !R,  VCC,  VCC);
-  _EQ002 =  Q1 &  Q2 &  Q4;
+ Q8      = TFFE( _EQ005,  _EQ006, !R,  VCC,  VCC);
+  _EQ005 =  Q1 &  Q2 &  Q4;
+  _EQ006 =  CLK &  ENA;
 
 
 
@@ -265,7 +258,7 @@ R        : INPUT;
 
 
 
-Project Information       d:\programmes\max\max_projects\pcsod_v.2\counter.rpt
+Project Information                    e:\max_projects\pcsod_v.2.1\counter.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -343,15 +336,15 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:01
    --------------------------             --------
-   Total Time                             00:00:01
+   Total Time                             00:00:02
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 2,902K
+Peak memory allocated during compilation  = 4,728K

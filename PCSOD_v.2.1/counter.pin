@@ -33,8 +33,8 @@ GND                              : 1
 GND                              : 2
 VCCINT                           : 3
 R                                : 4
-RESERVED                         : 5
-RESERVED                         : 6
+CLK                              : 5
+ENA                              : 6
 TDI                              : 7
 RESERVED                         : 8
 RESERVED                         : 9
@@ -71,5 +71,5 @@ Q1                               : 39
 Q2                               : 40
 Q4                               : 41
 GND                              : 42
-CLK                              : 43
+GND                              : 43
 GND                              : 44

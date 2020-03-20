@@ -18,16 +18,16 @@
 ' their respective licensors.  No other licenses, including any licenses
 ' needed under any third party's intellectual property, are provided herein.
 
-'Device #1: EPM3032A - d:\programmes\max\max_projects\pcsod_v.2\counter.pof Wed Mar 11 18:18:04 2020
+'Device #1: EPM3032A - e:\max_projects\pcsod_v.2.1\counter.pof Fri Mar 20 09:46:38 2020
 
 NOTE "CREATOR" "Altera Jam/STAPL Composer Version 10.23 07/09/2003";
-NOTE "DATE" "2020/03/11";
+NOTE "DATE" "2020/03/20";
 NOTE "DEVICE" "EPM3032A";
 NOTE "FILE" "counter.pof";
 NOTE "TARGET" "1";
 NOTE "IDCODE" "170320DD";
 NOTE "USERCODE" "FFFFFFFF";
-NOTE "CHECKSUM" "0007006E";
+NOTE "CHECKSUM" "0006FEBE";
 NOTE "SAVE_DATA" "DEVICE_DATA";
 NOTE "SAVE_DATA_VARIABLES" "V0, A12, A13, A25, A43, A50";
 NOTE "STAPL_VERSION" "JESD71";
@@ -54,12 +54,12 @@ INTEGER A25[1] = 10;
 INTEGER A43[1] = 0;
 BOOLEAN A50[17019] = @
 GX000u@@@t@@@l@_lNt@@@k@@@@6iQW@@@N@xz_fUm@@@l@@_Flt@@namx@UFF00
-m4Vm@@Vlltx@5bm@x@kU@@@TbGxtRD@@@@9_W@@tVxz_@__@@7w3lrWs_W@@@N@x
-zU001@xy3_@R@yUx@@sAA79UB3y@m@@MIet30eeaGxtxzKAnRPmWAX@_lNtlx_lb
-4Tx6Uu@@xM9u9Yutj@e@xz_jqItgYb8CTBCUBtsjkoVzNBh@@@kr@vM@VozVbu@n
-j2nxzUNltxjzN@Tz_@@_xzUTltxvzUldtxXWG8422XGe0K84z@@@WG84A4W12Fdp
-nvSEBdpvqSE@l@@dpB06mvSErzUldtVzU_xzUU@@@zzUlhtxlsUl@gxl@@PWIu@@
-@N0@@F0;
+m4Vm@@Vlltx@5bm@x@kU@@@TbGxtRD@@@@9_W@@tVxz_@ww@@7w3lrWs_W@@@N@x
+zU045@xy3_@R@yUx@@sAA79UB3y@m@@MIet30eeaGxtxzKAnRPmWAX@_lNtlx_lb
+4Tx6Uu@@xM9u9Yutj@e@xz_jqItgYb8CTBCUBtcRLH_dpvIK5@rVji_@@xMKv@@F
+tdpv@Iy@Sh@Fv_V0zSUltxwzUlj@wlht@@tVlthxzUFltxzyUF442XGG8425XIfi
+@@@742XGX0CGuvSEEdpPvSEdcpv@z@@SU1m0Edpfktxzy_htpVltpx@@lltxTzU@
+rsxztZtLX@@pP1y@@0;
 
 ENDDATA;
 DATA TEMP_DATA;
@@ -1496,4 +1496,4 @@ L386:
 V48 = V93;
 ENDPROC;
 ' END OF FILE
-CRC 3E47;
+CRC 1850;

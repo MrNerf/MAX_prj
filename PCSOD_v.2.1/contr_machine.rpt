@@ -1,8 +1,8 @@
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Project Information              e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 
 MAX+plus II Compiler Report File
 Version 10.23 07/09/2003
-Compiled: 03/17/2020 23:07:57
+Compiled: 03/20/2020 11:52:38
 
 Copyright (C) 1988-2003 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -37,20 +37,13 @@ Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
 contr_machine
-      EPM3032ALC44-4       4        6        0      9       0           28 %
+      EPM3032ALC44-4       4        5        0      7       0           21 %
 
-User Pins:                 4        6        0  
+User Pins:                 4        5        0  
 
-
-
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
-
-** PROJECT COMPILATION MESSAGES **
-
-Warning: Ignored primitive symbol "SCLK" (ID :52) it has no output
 
 
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Project Information              e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 
 ** AUTO GLOBAL SIGNALS **
 
@@ -59,7 +52,7 @@ Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
 INFO: Signal 'CLK' chosen for auto global Clock
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ***** Logic for device 'contr_machine' compiled without errors.
@@ -79,24 +72,24 @@ Device Options:
                                                
                                                
                        V                       
-                       C                       
-                       C                 R  n  
-                       I  G  G  G  C  G  E  c  
-              P  P  P  N  N  N  N  L  N  A  l  
-              2  1  3  T  D  D  D  K  D  D  k  
+                       C                    R  
+                       C                 S  E  
+                       I  G  G  G  C  G  D  S  
+              P  P  P  N  N  N  N  L  N  V  E  
+              3  2  1  T  D  D  D  K  D  S  T  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
-    #TDI |  7                                39 | RESERVED 
+    #TDI |  7                                39 | READ 
 RESERVED |  8                                38 | #TDO 
-RESERVED |  9                                37 | RESERVED 
+RESERVED |  9                                37 | SUB 
      GND | 10                                36 | GND 
 RESERVED | 11                                35 | VCCIO 
 RESERVED | 12         EPM3032ALC44-4         34 | WR 
-    #TMS | 13                                33 | SUB 
+    #TMS | 13                                33 | RESERVED 
 RESERVED | 14                                32 | #TCK 
-   VCCIO | 15                                31 | SDVS 
+   VCCIO | 15                                31 | RESERVED 
 RESERVED | 16                                30 | GND 
-     GND | 17                                29 | RESET 
+     GND | 17                                29 | RESERVED 
          |_  18 19 20 21 22 23 24 25 26 27 28  _| 
            ------------------------------------ 
               R  R  R  R  G  V  R  R  R  R  R  
@@ -124,7 +117,7 @@ PDn = Power Down pin.
 & = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** RESOURCE USAGE **
@@ -133,25 +126,25 @@ contr_machine
 Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
 
 A:     LC1 - LC16     0/16(  0%)   5/15( 33%)   0/16(  0%)   0/36(  0%) 
-B:    LC17 - LC32     9/16( 56%)   8/15( 53%)   0/16(  0%)   7/36( 19%) 
+B:    LC17 - LC32     7/16( 43%)   7/15( 46%)   0/16(  0%)   5/36( 13%) 
 
 
 Total dedicated input pins used:                 1/4      ( 25%)
-Total I/O pins used:                            13/30     ( 43%)
-Total logic cells used:                          9/32     ( 28%)
+Total I/O pins used:                            12/30     ( 40%)
+Total logic cells used:                          7/32     ( 21%)
 Total shareable expanders used:                  0/32     (  0%)
-Total Turbo logic cells used:                    9/32     ( 28%)
+Total Turbo logic cells used:                    7/32     ( 21%)
 Total shareable expanders not available (n/a):   0/32     (  0%)
-Average fan-in:                                  2.88
-Total fan-in:                                    26
+Average fan-in:                                  3.42
+Total fan-in:                                    24
 
 Total input pins required:                       4
-Total output pins required:                      6
+Total output pins required:                      5
 Total bidirectional pins required:               0
 Total reserved pins required                     4
-Total logic cells required:                      9
+Total logic cells required:                      7
 Total flipflops required:                        2
-Total product terms required:                   11
+Total product terms required:                    9
 Total logic cells lending parallel expanders:    0
 Total shareable expanders in database:           0
 
@@ -159,7 +152,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** INPUTS **
@@ -167,10 +160,10 @@ contr_machine
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  43      -   -       INPUT  G            0      0   0    0    0    0    1  CLK
-   5    (2)  (A)      INPUT               0      0   0    0    0    2    1  P1
-   6    (3)  (A)      INPUT               0      0   0    0    0    1    0  P2
-   4    (1)  (A)      INPUT               0      0   0    0    0    2    2  P3
+  43      -   -       INPUT  G            0      0   0    0    0    0    0  CLK
+   4    (1)  (A)      INPUT               0      0   0    0    0    2    1  P1
+   5    (2)  (A)      INPUT               0      0   0    0    0    1    0  P2
+   6    (3)  (A)      INPUT               0      0   0    0    0    2    2  P3
 
 
 Code:
@@ -188,7 +181,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** OUTPUTS **
@@ -196,11 +189,10 @@ contr_machine
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  40     18    B     OUTPUT      t        0      0   0    0    1    0    0  nclk
-  41     17    B     OUTPUT      t        0      0   0    1    2    0    0  READ
-  29     27    B     OUTPUT      t        0      0   0    0    2    0    0  RESET
-  31     26    B     OUTPUT      t        0      0   0    1    2    0    0  SDVS
-  33     24    B     OUTPUT      t        0      0   0    2    2    0    0  SUB
+  39     19    B     OUTPUT      t        0      0   0    1    2    0    0  READ
+  40     18    B     OUTPUT      t        0      0   0    0    2    0    0  RESET
+  41     17    B     OUTPUT      t        0      0   0    1    2    0    0  SDVS
+  37     21    B     OUTPUT      t        0      0   0    2    2    0    0  SUB
   34     23    B     OUTPUT      t        0      0   0    1    2    0    0  WR
 
 
@@ -214,7 +206,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** BURIED LOGIC **
@@ -222,9 +214,8 @@ contr_machine
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
- (37)    21    B       DFFE   +  t        0      0   0    1    2    5    2  Q0 (:8)
- (38)    20    B       DFFE   +  t        0      0   0    2    2    5    2  Q1 (:9)
- (39)    19    B      LCELL      t        0      0   0    1    0    1    0  :49
+ (38)    20    B       DFFE   +  t        0      0   0    1    2    5    2  Q0 (:8)
+   -     22    B       DFFE   +  t        0      0   0    2    2    5    2  Q1 (:9)
 
 
 Code:
@@ -237,43 +228,40 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** LOGIC CELL INTERCONNECTIONS **
 
 Logic Array Block 'B':
 
-                           Logic cells placed in LAB 'B'
-        +----------------- LC18 nclk
-        | +--------------- LC17 READ
-        | | +------------- LC27 RESET
-        | | | +----------- LC26 SDVS
-        | | | | +--------- LC24 SUB
-        | | | | | +------- LC23 WR
-        | | | | | | +----- LC21 Q0
-        | | | | | | | +--- LC20 Q1
-        | | | | | | | | +- LC19 :49
-        | | | | | | | | | 
-        | | | | | | | | |   Other LABs fed by signals
-        | | | | | | | | |   that feed LAB 'B'
-LC      | | | | | | | | | | A B |     Logic cells that feed LAB 'B':
-LC21 -> - * * * * * * * - | - * | <-- Q0
-LC20 -> - * * * * * * * - | - * | <-- Q1
-LC19 -> * - - - - - - - - | - * | <-- :49
+                       Logic cells placed in LAB 'B'
+        +------------- LC19 READ
+        | +----------- LC18 RESET
+        | | +--------- LC17 SDVS
+        | | | +------- LC21 SUB
+        | | | | +----- LC23 WR
+        | | | | | +--- LC20 Q0
+        | | | | | | +- LC22 Q1
+        | | | | | | | 
+        | | | | | | |   Other LABs fed by signals
+        | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | A B |     Logic cells that feed LAB 'B':
+LC20 -> * * * * * * * | - * | <-- Q0
+LC22 -> * * * * * * * | - * | <-- Q1
 
 Pin
-43   -> - - - - - - - - * | - * | <-- CLK
-5    -> - - - - * * - * - | - * | <-- P1
-6    -> - - - - * - - - - | - * | <-- P2
-4    -> - * - * - - * * - | - * | <-- P3
+43   -> - - - - - - - | - - | <-- CLK
+4    -> - - - * * - * | - * | <-- P1
+5    -> - - - * - - - | - * | <-- P2
+6    -> * - * - - * * | - * | <-- P3
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:d:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Device-Specific Information:     e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 contr_machine
 
 ** EQUATIONS **
@@ -283,38 +271,34 @@ P1       : INPUT;
 P2       : INPUT;
 P3       : INPUT;
 
--- Node name is 'nclk' = ':50' 
--- Equation name is 'nclk', type is output 
- nclk    = LCELL( _LC019 $  GND);
-
 -- Node name is ':8' = 'Q0' 
--- Equation name is 'Q0', location is LC021, type is buried.
+-- Equation name is 'Q0', location is LC020, type is buried.
 Q0       = DFFE( _EQ001 $ !Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
   _EQ001 = !P3 &  Q0 &  Q1;
 
 -- Node name is ':9' = 'Q1' 
--- Equation name is 'Q1', location is LC020, type is buried.
+-- Equation name is 'Q1', location is LC022, type is buried.
 Q1       = DFFE( _EQ002 $  GND, GLOBAL( CLK),  VCC,  VCC,  VCC);
   _EQ002 = !P3 &  Q0 &  Q1
          # !P1 &  Q0 & !Q1;
 
 -- Node name is 'READ' 
--- Equation name is 'READ', location is LC017, type is output.
+-- Equation name is 'READ', location is LC019, type is output.
  READ    = LCELL( _EQ003 $  GND);
   _EQ003 =  P3 &  Q0 &  Q1;
 
 -- Node name is 'RESET' 
--- Equation name is 'RESET', location is LC027, type is output.
+-- Equation name is 'RESET', location is LC018, type is output.
  RESET   = LCELL( _EQ004 $  GND);
   _EQ004 = !Q0 & !Q1;
 
 -- Node name is 'SDVS' 
--- Equation name is 'SDVS', location is LC026, type is output.
+-- Equation name is 'SDVS', location is LC017, type is output.
  SDVS    = LCELL( _EQ005 $  GND);
   _EQ005 = !P3 &  Q0 &  Q1;
 
 -- Node name is 'SUB' 
--- Equation name is 'SUB', location is LC024, type is output.
+-- Equation name is 'SUB', location is LC021, type is output.
  SUB     = LCELL( _EQ006 $  GND);
   _EQ006 = !P1 &  P2 &  Q0 & !Q1;
 
@@ -322,10 +306,6 @@ Q1       = DFFE( _EQ002 $  GND, GLOBAL( CLK),  VCC,  VCC,  VCC);
 -- Equation name is 'WR', location is LC023, type is output.
  WR      = LCELL( _EQ007 $  GND);
   _EQ007 = !P1 &  Q0 & !Q1;
-
--- Node name is ':49' 
--- Equation name is '_LC019', type is buried 
-_LC019   = LCELL( CLK $  GND);
 
 
 
@@ -335,7 +315,7 @@ _LC019   = LCELL( CLK $  GND);
 
 
 
-Project Informationd:\programmes\max\max_projects\pcsod_v.2.1\contr_machine.rpt
+Project Information              e:\max_projects\pcsod_v.2.1\contr_machine.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -413,15 +393,15 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
-   Fitter                                 00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:01
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:02
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,524K
+Peak memory allocated during compilation  = 4,351K
